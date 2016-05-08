@@ -26,26 +26,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  
 </head>
 <body>
+		<div id="fixedbar">
+        <ul class="menubar">
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        
+        <div id="placeholder">
+        	
+        </div>
 		<!--start-header-section-->
-			<div class="header-section">
+			<div class="header-section" id="profile">
 				<div class="continer">
-				    <!--<embed width="420" height="315" src="https://www.youtube.com/watch?v=8eQ0FKRIHyI" />-->
-                    <iframe width="600" height="400" src="https://youtube.com/embed/8eQ0FKRIHyI"></iframe>
-					<!--<img src="images/p1.png">!-->
+				    <div class="youtube">
+                    <iframe src="https://youtube.com/embed/8eQ0FKRIHyI"></iframe>
+                    </div>
 						<h1>Mentor</h1>
 							<p>“The best way to predict your future is to create it” ― Abraham Lincoln</p>
 							<a href="#contact" class="scroll top"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a>
 				</div>
 			</div>
 		<!--end header-section-->
-			<!--start-study-section-->
-			<div class="study-section">
+			<!--start-skills-section-->
+			<div class="skills-section" id="skills">
 				<div class="container">
-					<div class="study-grids">
-						<div class="col-md-6 study-grid">
+					<div class="skills-grids">
+						<div class="col-md-6 skills-grid">
 						<p>
 						<h3>Experience/Qualifications</h3>
-						<div class="study1">
+						<div class="skills1">
 						    <ul>
 							<li>Founder/CEO of Stan Group <label>( 2013 )</label></li>
 							<li>CEO of The Wave <label>( 2016 )</label></li>
@@ -56,7 +69,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</p>
 						<p>
 						<h3>Looking For</h3>
-						<div class="study1">
+						<div class="skills1">
 						    <ul>
 							<li>Skills based volunteering/consulting</li>
 							<li>Social Development</li>
@@ -64,9 +77,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						</p>
 						</div>
-						<div class="col-md-6 study-grid">
+						<div class="col-md-6 skills-grid">
 						<h3>skills</h3>
-						<div class="study2">
+						<div class="skills2">
 						<h4>Marketing Strategy</h4>
 							<div class="progress">
 							  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
@@ -97,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
-			<!--end study-section-->
+			<!--end skills-section-->
 			<!--start-services-section-->
 			<div class="service-section" id="service">
 				<div class="container">
@@ -150,16 +163,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							</div>
 							<!--end-social-section-->
+							
+							<!--start review section -->
+							
+							
+							<div class="review-section" id="reviews">
+							<h3>Reviews</h3>
+							<div class="a_review">
+								<h4>Fred Lee</h4>
+								<p><i class="mentee"></i>Stan was an amazing mentor! As the CEO of a conglomerate, he not only had direct experience in the startup I was involved in (Food and Beverage), but also had connections to potential future business partners for my startup (Wedding planning). I was looking for a mentor to help with the social media marketing of my startup. We had grown in the past year but were looking at new avenues to advertise our company outside of tv and magazine ads. With Stan's help and guidance, we were able to triple our coverage using Facebook, Twitter, Instagram, Pinterest. We are now looking to expand into the wedding space with our company and plan on using Stan to help with finding strategic partners.</p>
+							</div>
+							<div class="a_review">
+								<H4>Tommy Chan</H4>
+								<p><i class="mentee"></i>I reached out to Stan to get help on planning a major event during Startup HK. We were able to host several other smaller startups for a panel discussing the startup community in Hong Kong. Additionally, as our startup was the planner for the event, we were able to gain advertisement as well as many new customers by hosting this event. To top it all off, we were able to get connected to an interested angel investor at this event. Thank you Stan!</p>
+							</div>
+							<div class = "a_review">
+								<H4>Gary Schmidt</H4>
+								<p><i class="mentee"></i>Being a mentee of Stan's has been nearly priceless. I am an expat who recently moved to Hong Kong and had almost no connections when I arrived. I had a few startup ideas but had no idea how to really execute them in Hong Kong. Stan, with his vast network, was able to help get get started creating these new businesses by helping connect me to several resources when I needed them. Furthermore, I was able to use his facilities at The Wave to kickstart my main startup. Highly, highly recommended for both new and seasoned entrepreneurs.</p>
+							</div>
+							</div>
+							
+							<!-- start calendar section -->
+							<div class="google-cal" id="calendar">
+								<iframe src="https://calendar.google.com/calendar/embed?src=sbmantomj99e5viknj4vnfvfs4%40group.calendar.google.com&ctz=Asia/Hong_Kong"></iframe>
+							</div>
+								
 							<!--start-contact-section-->
 						<div class="contact-section" id="contact">
 				<div class="container">
-					<h3>contact us</h3>
+					<h3>contact me</h3>
 					 <div class="contact-details">
 			 <form>
 				 <div class="col-md-6 contact-left">
 					 <input type="text" class="text" value="Name *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name *';}">
 					 <input type="text" class="text" value="Email *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email *';}">
-					 <input type="text" class="text" value="phone *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone *';}">
+					 <input type="text" class="text" value="Phone *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone *';}">
 				 </div>
 				 <div class="col-md-6 contact-right">
 					 <textarea  value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message *</textarea>
